@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.aplikasi.mahasiswa"
+        applicationId "com.app.mahasiswa"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

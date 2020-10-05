@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aplikasi.mahasiswa">
+    package="com.app.mahasiswa">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.app.mahasiswa.DetailParcelable"></activity>
+        <activity android:name="com.app.mahasiswa.DetailActivity" />
+        <activity android:name="com.app.mahasiswa.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
